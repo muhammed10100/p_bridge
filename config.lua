@@ -213,9 +213,11 @@ Config.Fuel = 'auto'
 ]]
 
 --@param Config.TextUI: string [set which TextUI system you are using]
+--@param Config.TextUI: string [set which TextUI system you are using]
 Config.TextUI = 'auto'
 --[[
     auto - will try to detect TextUI system automatically
+    qb-core - qb-core TextUI
     ox_lib - ox_lib TextUI
 
     -- open ticket on our discord if you want to add your TextUI system [discord.gg/piotreqscripts]
