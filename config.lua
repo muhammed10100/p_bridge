@@ -148,6 +148,7 @@ Config.ProgressBar = 'auto'
     qb - QB Progress Bar
     qs-interface - Quasar Interface Progress Bar
     lation_ui - Lation UI Progress Bar
+    tgiann-lumihud - Tgiann Lumihud Progerss Bar
 
     -- open ticket on our discord if you want to add your progress bar system [discord.gg/piotreqscripts]
 ]]
