@@ -173,6 +173,7 @@ Config.Society = 'auto'
     crm-banking - Corem Banking
     snipe-banking - Snipe Banking
     prism_banking - Prism Banking
+    tgiann-bank - Tgiann-Bank
     none - no society system
 
     -- open ticket on our discord if you want to add your society system [discord.gg/piotreqscripts]
