@@ -3,7 +3,7 @@ game 'gta5'
 author 'pScripts [tebex.pscripts.store] & mdt10100 [mdtyazilim.tebex.io]'
 lua54 'yes'
 description 'pScripts - Official Bridge & MDT YAZILIM HIZMETLERI'
-version '1.2.5'
+version '1.2.9'
 
 client_scripts {
     'client/main.lua',
