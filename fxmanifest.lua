@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
-author 'pScripts [tebex.pscripts.store]'
+author 'pScripts [tebex.pscripts.store] & mdt10100 [mdtyazilim.tebex.io]'
 lua54 'yes'
-description 'pScripts - Official Bridge'
+description 'pScripts - Official Bridge & MDT YAZILIM HIZMETLERI'
 version '1.2.5'
 
 client_scripts {
