@@ -74,7 +74,7 @@ Config.Notify = 'auto'
     is_ui - Inside Scripts Notifications
     lation_ui - Lation UI Notifications
     g-notifications - Groot Notifications
-    lumihud-tgiann - Tgiann Hud Notifications
+    tgiann-lumihud - Tgiann Hud Notifications
 
     -- open ticket on our discord if you want to add your notification system [discord.gg/piotreqscripts]
 ]]
