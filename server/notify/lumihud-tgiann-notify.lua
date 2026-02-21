@@ -12,13 +12,12 @@ end
 
 Bridge.Notify = {}
 
-Bridge.Notify.showNotify = function(message, type)
-    -- tgiann-lumihud desteklediği tipler: 'primary', 'error', 'success'
+Bridge.Notify.showNotify = function(playerId, message, type)
     if type == 'inform' or type == 'info' then
         type = 'primary'
     elseif type ~= 'error' and type ~= 'success' then
         type = 'primary'
     end
 
-    exports["tgiann-lumihud"]:Notif(message, type, 3000)
+    TriggerClientEvent('bridge:lumihud:notify', playerId, message, type, 3000)
 end
