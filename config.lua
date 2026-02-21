@@ -215,10 +215,10 @@ Config.Fuel = 'auto'
 ]]
 
 --@param Config.TextUI: string [set which TextUI system you are using]
---@param Config.TextUI: string [set which TextUI system you are using]
 Config.TextUI = 'auto'
 --[[
     auto - will try to detect TextUI system automatically
+    tgiann-core - tgiann-core TextUI
     qb-core - qb-core TextUI
     ox_lib - ox_lib TextUI
 
