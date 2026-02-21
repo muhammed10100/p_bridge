@@ -12,19 +12,13 @@ end
 
 Bridge.Notify = {}
 
-Bridge.Notify.showNotify = function(playerId, message, type)
-    -- Tgiann LumiHud için tip (type) dönüşümleri
-    -- QB 'inform' veya 'primary' kullanırken, Tgiann genelde 'info' kullanır.
-    if type == 'inform' or type == 'primary' then
-        type = 'info'
+Bridge.Notify.showNotify = function(message, type)
+    -- tgiann-lumihud desteklediği tipler: 'primary', 'error', 'success'
+    if type == 'inform' or type == 'info' then
+        type = 'primary'
+    elseif type ~= 'error' and type ~= 'success' then
+        type = 'primary'
     end
-    
-    -- Eğer 'success' veya 'error' gelirse olduğu gibi kalır, ancak emin olmak için kontrol edebilirsiniz.
-    -- type seçenekleri genelde: 'success', 'error', 'warning', 'info'
 
-    local time = 5000 -- Bildirimin ekranda kalma süresi (milisaniye cinsinden)
-
-    -- Dokümantasyona uygun Server -> Client tetikleyicisi
-    -- Parametreler: source, type, message, time
-    TriggerClientEvent('tgiann-lumihud:client:sendNotification', playerId, type, message, time)
+    exports["tgiann-lumihud"]:Notif(message, type, 3000)
 end
