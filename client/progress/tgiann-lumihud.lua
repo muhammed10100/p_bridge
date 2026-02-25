@@ -71,7 +71,7 @@ Bridge.Progress.StartCircle = function(data)
     end
 
     -- tgiann-lumihud circle progress (position parametresi destekliyorsa kullanılır)
-    exports['tgiann-lumihud']:ProgressCircle({
+    exports['tgiann-lumihud']:Progress({
         duration       = data.duration     or 5000,
         label          = data.label        or 'Processing...',
         useWhileDead   = data.useWhileDead ~= nil and data.useWhileDead or false,
